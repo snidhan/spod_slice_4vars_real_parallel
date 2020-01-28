@@ -1,0 +1,35 @@
+ Total number of processors are           2
+ Produce of px, py, pz           2
+ Total number of processors are           2
+ Produce of px, py, pz           2
+  Processor indices           0           0           0           0
+  Processor indices           1           0           1           0
+         330
+         256
+           1
+           4
+         330
+         256
+           1
+           4
+  9.050000000000000E-002
+         500
+     2392600
+         100
+           3
+          25
+         512
+         256
+ Nxp,Nyp,Nzp calculated         330         128           1           4
+  9.050000000000000E-002
+         500
+     2392600
+         100
+           3
+          25
+         512
+         256
+           2           3           2           3           2           3
+                     8                   330                   256
+                     1
+ Reading the file      2392600
