@@ -24,7 +24,7 @@ subroutine weighting(weightDIR, weightfile, Q_ktemp, Stemp, Nblk, Nrows, Nx, Ny,
     W = W*(2*pi)/(ntheta)
 
     do i = 1, numvar
-        if (i .lt. 3) then
+        if (i .le. 3) then
             do k = 1, Ny
                 do j = 1, Nx
                     Q_kweight((i-1)*Nx*Ny + (k-1)*Nx + j, :) = W(j)*Q_ktemp((i-1)*Nx*Ny + (k-1)*Nx + j, :)
